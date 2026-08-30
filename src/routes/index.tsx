@@ -47,7 +47,10 @@ function Home() {
     <>
       {/* HERO */}
       <section className="relative overflow-hidden bg-background">
-        <div className="grain-grid absolute inset-0 opacity-60" aria-hidden="true" />
+        <div className="absolute inset-0">
+          <Hero3D className="h-full" />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 pt-10 pb-14 sm:px-6 md:grid-cols-[0.88fr_1.12fr] md:pt-16 md:pb-20">
           <div>
             <Reveal>
@@ -113,17 +116,7 @@ function Home() {
             </Reveal>
           </div>
 
-          <Reveal delay={120} className="relative">
-            <div className="mb-3 flex items-center justify-between px-1">
-              <span className="label-caps text-accent">The KKS system / 01</span>
-              <span className="label-caps text-muted-foreground">Auto orbit · touch ready</span>
-            </div>
-            <Hero3D />
-            <div className="mt-3 flex items-center justify-between px-1 text-[0.6rem] text-muted-foreground">
-              <span className="label-caps">Signature whey / isolate / ignition</span>
-              <span className="label-caps text-primary">Drag to rotate</span>
-            </div>
-          </Reveal>
+          <div />
         </div>
       </section>
 

@@ -9,6 +9,7 @@ import {
   Text,
 } from "@react-three/drei";
 import type { Group } from "three";
+import heroBg from "../../assets/hero-background.jpg";
 
 const RED = "#df1930";
 const BLUE = "#2456e8";
@@ -180,7 +181,7 @@ function Scene({ scrollRef }: { scrollRef?: { current: number } }) {
   return (
     <>
       <group ref={root}>
-      <color attach="background" args={["#f7faff"]} />
+      <color attach="background" args={["#00000000"]} />
       <ambientLight intensity={1.05} />
       <directionalLight
         position={[4, 7, 6]}
@@ -266,7 +267,14 @@ export function Hero3D({ className = "" }: { className?: string }) {
   }, []);
 
   return (
-    <div className={"hero-stage relative h-[28rem] w-full overflow-hidden rounded-lg sm:h-[36rem] " + className}>
+    <div 
+      className={"hero-stage relative h-[28rem] w-full overflow-hidden rounded-lg sm:h-[36rem] " + className}
+      style={{
+        backgroundImage: `url(${heroBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       {mounted && (
         <Canvas
           shadows

@@ -5,12 +5,12 @@ import { ProductCard } from "@/components/site/ProductCard";
 export const Route = createFileRoute("/wishlist")({
   head: () => ({
     meta: [
-      { title: "Your Wishlist — Kumar & Kumar Sports" },
+      { title: "Your Wishlist — mrprotien" },
       {
         name: "description",
-        content: "Saved protein, creatine and performance supplements from Kumar & Kumar Sports.",
+        content: "Saved protein, creatine and performance supplements from mrprotien.",
       },
-      { property: "og:title", content: "Your Wishlist — Kumar & Kumar Sports" },
+      { property: "og:title", content: "Your Wishlist — mrprotien" },
       { property: "og:description", content: "Everything you saved for your next stack." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

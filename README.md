@@ -10,7 +10,7 @@ Premium fitness brand
 
 Modern sportswear brand
 
-name should be kumar and kumar sons 
+name should be mrprotien 
 
 High-performance nutrition company
 
@@ -508,7 +508,7 @@ Strong brand identity
 
 Smooth animations
 
-Original design name should be kumar and kumar sons
+Original design name should be mrprotien
 
 This project was built with [Lovable](https://lovable.dev).
 

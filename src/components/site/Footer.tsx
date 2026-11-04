@@ -25,7 +25,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <Mark className="h-9 w-9" />
             <span className="font-display text-lg font-black uppercase">
-              Kumar &amp; Kumar Sports
+              mrprotien
             </span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
@@ -67,7 +67,7 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-5 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>© {new Date().getFullYear()} Kumar &amp; Kumar Sports. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} mrprotien. All rights reserved.</p>
           <p className="label-caps">Built Different</p>
         </div>
       </div>

@@ -14,13 +14,13 @@ import { Reveal, Counter, Magnetic } from "@/components/site/Motion";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kumar & Kumar Sports — Premium Protein & Sports Nutrition" },
+      { title: "mrprotien — Premium Protein & Sports Nutrition" },
       {
         name: "description",
         content:
           "Lab-tested whey protein, isolate, creatine and pre-workout built in India. Batch traceable, athlete approved, free shipping over ₹1,499.",
       },
-      { property: "og:title", content: "Kumar & Kumar Sports — Built Different" },
+      { property: "og:title", content: "mrprotien — Built Different" },
       {
         property: "og:description",
         content: "Premium performance nutrition engineered for people who refuse to settle.",
@@ -73,7 +73,7 @@ function Home() {
             </Reveal>
             <Reveal delay={160}>
               <p className="mt-6 max-w-md text-base text-muted-foreground">
-                Kumar &amp; Kumar Sports makes precise, no-excuse fuel for the work between
+                mrprotien makes precise, no-excuse fuel for the work between
                 “I should” and “I did.” Published labels. Third-party testing. Zero filler math.
               </p>
             </Reveal>

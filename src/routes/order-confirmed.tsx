@@ -4,13 +4,13 @@ import { CheckCircle2 } from "lucide-react";
 export const Route = createFileRoute("/order-confirmed")({
   head: () => ({
     meta: [
-      { title: "Order Confirmed — Kumar & Kumar Sports" },
+      { title: "Order Confirmed — mrprotien" },
       {
         name: "description",
-        content: "Your Kumar & Kumar Sports order is confirmed and dispatching within 24 hours.",
+        content: "Your mrprotien order is confirmed and dispatching within 24 hours.",
       },
-      { property: "og:title", content: "Order Confirmed — Kumar & Kumar Sports" },
-      { property: "og:description", content: "Thanks for fuelling with Kumar & Kumar Sports." },
+      { property: "og:title", content: "Order Confirmed — mrprotien" },
+      { property: "og:description", content: "Thanks for fuelling with mrprotien." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

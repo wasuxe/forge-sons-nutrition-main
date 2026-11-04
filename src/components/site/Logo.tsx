@@ -22,7 +22,7 @@ export function Wordmark() {
       <Mark />
       <span className="leading-none">
         <span className="block font-display text-[0.95rem] font-black tracking-[-0.03em] uppercase">
-          Kumar &amp; Kumar Sports
+          mrprotien
         </span>
         <span className="block label-caps text-[0.55rem] text-muted-foreground">
           Built Different

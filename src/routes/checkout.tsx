@@ -6,12 +6,12 @@ import { formatINR } from "@/lib/products";
 export const Route = createFileRoute("/checkout")({
   head: () => ({
     meta: [
-      { title: "Secure Checkout — Kumar & Kumar Sports" },
+      { title: "Secure Checkout — mrprotien" },
       {
         name: "description",
-        content: "Complete your Kumar & Kumar Sports order with fast dispatch across India.",
+        content: "Complete your mrprotien order with fast dispatch across India.",
       },
-      { property: "og:title", content: "Secure Checkout — Kumar & Kumar Sports" },
+      { property: "og:title", content: "Secure Checkout — mrprotien" },
       { property: "og:description", content: "Fast, secure checkout for your performance stack." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

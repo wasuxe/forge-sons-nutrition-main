@@ -28,13 +28,13 @@ export const Route = createFileRoute("/shop")({
   },
   head: () => ({
     meta: [
-      { title: "Shop All Supplements — Kumar & Kumar Sports" },
+      { title: "Shop All Supplements — mrprotien" },
       {
         name: "description",
         content:
           "Browse whey protein, isolate, mass gainer, creatine, pre-workout, bars and accessories. Filter by goal, category and price.",
       },
-      { property: "og:title", content: "Shop Performance Nutrition — Kumar & Kumar Sports" },
+      { property: "og:title", content: "Shop Performance Nutrition — mrprotien" },
       {
         property: "og:description",
         content: "Lab-tested protein and performance supplements, filterable by your training goal.",

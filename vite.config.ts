@@ -6,10 +6,15 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
+// When building on Netlify, target Netlify Functions instead of the default Cloudflare Workers.
+// Inside the Lovable sandbox this is overridden automatically, so Lovable previews keep working.
+const isNetlify = process.env.NETLIFY === "true";
+
 export default defineConfig({
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  ...(isNetlify ? { nitro: { preset: "netlify" } } : {}),
 });
